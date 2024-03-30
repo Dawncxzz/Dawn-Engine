@@ -1,5 +1,2 @@
-﻿D:\Visual Studio\Common7\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(495,5): warning MSB8004: Intermediate 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
-D:\Visual Studio\Common7\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
-  Test.cpp
-    正在创建库 E:\DawnEngine\Dawn\bin\Debug-x64\Dawn\Dawn.lib 和对象 E:\DawnEngine\Dawn\bin\Debug-x64\Dawn\Dawn.exp
-  Dawn.vcxproj -> E:\DawnEngine\Dawn\bin\Debug-x64\Dawn\Dawn.dll
+﻿  Application.cpp
+  Dawn.vcxproj -> C:\Users\Administrator\Desktop\Dawn-Engine-main\Dawn\bin\Debug-x64\Dawn\Dawn.dll
