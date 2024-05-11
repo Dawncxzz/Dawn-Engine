@@ -59,8 +59,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>DAWN_PLATFORM_WINDOWS;DAWN_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>
-      </AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dawn\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -75,8 +74,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>DAWN_PLATFORM_WINDOWS;DAWN_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>
-      </AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Dawn\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -86,12 +84,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Dawn\Log.h" />
     <ClInclude Include="src\Dawn.h" />
     <ClInclude Include="src\Dawn\Application.h" />
     <ClInclude Include="src\Dawn\Core.h" />
     <ClInclude Include="src\Dawn\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Dawn\Log.cpp" />
     <ClCompile Include="src\Dawn\Application.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
